@@ -8,4 +8,7 @@ let animals = [
     "basalisk",
   ];
   
-let bListAnimals = // Your 'filter' code here.
+let bListAnimals = animals.filter(function(name){
+
+ return name.charAt(0) == 'b'
+})
